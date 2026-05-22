@@ -1,18 +1,20 @@
 <script setup lang="ts">
 defineProps<{
   post: {
-    title: string
-    date: string
-    subtitle: string
+    meta: {
+      title: string
+      date: string
+      subtitle: string
+    }
   }
 }>()
 </script>
 
 <template>
   <div class="post_item">
-    <h2 class="post_title">{{ post.title }}</h2>
-    <p class="post_date">{{ post.date }}</p>
-    <p class="post_subtitle">{{ post.subtitle }}</p>
+    <h2 class="post_title">{{ post.meta.title }}</h2>
+    <!--<p class="post_date">{{ post.meta.date }}</p>-->
+    <p class="post_subtitle">{{ post.meta.subtitle }}</p>
   </div>
 </template>
 
