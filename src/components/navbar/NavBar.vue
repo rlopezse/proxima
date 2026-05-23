@@ -6,7 +6,9 @@ console.log('Bar component loaded')
   <nav class="navbar">
     <div class="navbar_containter">
       <RouterLink to="/" class="navbar_logo">Proxima</RouterLink>
-      <RouterLink to="/about" class="navbar_myself">Sobre Mí</RouterLink>
+      <RouterLink to="/about" class="navbar_myself">
+        <span>Sobre Mí</span><img src="../../assets/avatar.jpeg"
+      /></RouterLink>
     </div>
   </nav>
 </template>
@@ -35,6 +37,16 @@ console.log('Bar component loaded')
 .navbar_myself {
   cursor: pointer;
   transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.navbar_myself img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
 }
 
 .navbar_myself:hover {
