@@ -1,72 +1,104 @@
-.post_content h1 {
+.post {
+  padding: calc(16px * 2) 0;
+}
+
+.post_content .markdown-body h1 {
   font-size: 30px;
-  font-family: 'Ultra';
-  margin-bottom: 8px;
+  font-weight: 900;
+  margin-bottom: calc(16px * 1.5);
 }
 
-.post_content h2 {
+.post_content .markdown-body h2 {
+  font-weight: 900;
   font-size: 24px;
-  font-family: 'Ultra';
-  margin-bottom: 8px;
+  margin-bottom: calc(16px * 1.5);
 }
 
-.post_content h3 {
+.post_content .markdown-body h3 {
+  font-weight: 700;
   font-size: 18px;
-  font-family: 'Ultra';
-  margin-bottom: 8px;
+  margin-bottom: calc(16px * 1.5);
 }
 
-.post_content p {
-  font-size: 14px;
-  margin-bottom: 16px;
+.post_content .markdown-body p {
+  font-size: 18px;
+  margin-bottom: calc(16px * 1.5);
+  font-family:
+    source-serif-pro, Georgia, Cambria, 'Times New Roman', Times, serif;
+  color: #242424;
+  line-height: 32px;
 }
 
-.post_content strong {
-  font-size: 14px;
-  font-weight: 500;
+.post_content .markdown-body strong {
+  //font-size: 14px;
 }
 
-.post_content a {
+.post_content .markdown-body a {
   font-size: 14px;
   text-decoration: underline;
 }
 
-.post_content ul {
+.post_content .markdown-body ul {
   list-style: disc;
   padding-left: 24px;
   margin-bottom: 16px;
 }
 
-.post_content ol {
+.post_content .markdown-body ol {
   list-style: decimal;
   padding-left: 24px;
   margin-bottom: 16px;
 }
 
-.post_content code {
-  background: #f4f4f4;
-  padding: 8px 16px;
-  border-radius: 16px;
+.post_content .markdown-body p > code {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 4px;
+  border-radius: 4px;
+  font-family:
+    source-serif-pro, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+.post_content .markdown-body pre {
+  background: #08090a;
+  color: #f8f8f2;
+  padding: 16px;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: 16px;
   font-size: 14px;
 }
 
-.post_content pre {
-  background: #f4f4f4;
-  padding: 16px;
-  border-radius: 16px;
-  overflow-x: auto;
-  margin-bottom: 16px;
-}
-
-.post_content blockquote {
+.post_content .markdown-body blockquote {
   border-left: 4px solid #ddd;
   padding-left: 16px;
   color: #666;
   margin-bottom: 16px;
 }
 
-.post_content img {
+.post_content .markdown-body img {
   max-width: 100%;
   border-radius: 8px;
   margin-bottom: 16px;
 }
+
+.post_back {
+  margin-top: calc(32px * 2);
+  font-size: 24px;
+  font-family: 'Ultra';
+  cursor: pointer;
+}
+
+.post_header {
+  padding-bottom: calc(16px * 2);
+}
+
+.post_header h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.post_header span {
+  font-size: 14px;
+  color: var(--gray-600);
+}
+

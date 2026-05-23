@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import formattedDate from '../../utils/date'
+
 defineProps<{
   post: {
     meta: {
@@ -12,8 +14,8 @@ defineProps<{
 
 <template>
   <div class="post_item">
-    <h2 class="post_title">{{ post.meta.title }}</h2>
-    <!--<p class="post_date">{{ post.meta.date }}</p>-->
+    <p class="post_title">{{ post.meta.title }}</p>
+    <p class="post_date">{{ formattedDate(post.meta.date) }}</p>
     <p class="post_subtitle">{{ post.meta.subtitle }}</p>
   </div>
 </template>
@@ -29,7 +31,7 @@ defineProps<{
 }
 
 .post_title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 800;
   color: var(--primary);
   transition: opacity 0.3s ease;
@@ -37,6 +39,7 @@ defineProps<{
 
 .post_date {
   font-size: 12px;
+  margin-bottom: 4px;
   color: var(--gray-700);
 }
 
