@@ -29,10 +29,6 @@
   line-height: 32px;
 }
 
-.post_content .markdown-body strong {
-  //font-size: 14px;
-}
-
 .post_content .markdown-body a {
   font-size: 14px;
   text-decoration: underline;
@@ -101,4 +97,3 @@
   font-size: 14px;
   color: var(--gray-600);
 }
-
