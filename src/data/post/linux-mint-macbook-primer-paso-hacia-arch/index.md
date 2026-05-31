@@ -3,8 +3,10 @@ title: Linux Mint y mi primer paso hacia Arch
 slug: linux-mint-macbook-primer-paso-hacia-arch
 subtitle: Un usuario de macOS instala Linux Mint en hardware Apple por primera vez. Con tropiezos, sin manual, y con Arch Linux como destino final.
 category: tech
-date: 2026-06-08
+date: 2026-05-31
 ---
+
+![cover](./cover-mint.webp)
 
 Tengo una MacBook Pro 2015 que llevaba tiempo guardada. En lugar de dejarla acumulando polvo, decidí hacer algo con ella: instalar Linux. No como experimento temporal, sino como el primer paso de un camino que termina en Arch Linux.
 
