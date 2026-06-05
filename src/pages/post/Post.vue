@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { usePosts } from '../../composables/usePosts'
-import formattedDate from '../../utils/date'
+import { formattedDate } from '../../utils/date'
 import './Post.css'
 
 const route = useRoute()

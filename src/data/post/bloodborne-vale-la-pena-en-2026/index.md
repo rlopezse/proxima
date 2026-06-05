@@ -3,7 +3,7 @@ title: Bloodborne en 2026, ¿vale la pena jugarlo?
 slug: bloodborne-vale-la-pena-en-2026
 subtitle: Uno de los mejores juegos de FromSoftware cumple años y sigue siendo una experiencia única. Te contamos por qué todavía vale cada golpe y cada muerte.
 category: gaming
-date: 2026-05-25
+date: 18-05-2026
 ---
 
 ![cover](./bloodborne-cover.webp)
@@ -24,7 +24,7 @@ No es un lore para todo el mundo, pero si te engancha, es de esos que te quedas 
 
 Si vienes de otros Souls, olvida la estrategia de escudo y paciencia. Bloodborne te obliga a **atacar**. Quedarte quieto es morir. El sistema de rally te permite recuperar vida perdida si contraatacas rápido, lo que genera un loop de combate tenso, fluido y adictivo.
 
-Las armas transformables (las llamadas *trick weapons*) son otro punto alto: cada una tiene dos formas con moveset completamente distinto. Una espada que se convierte en látigo, un cuchillo que se abre en hoz, un mazo enorme que se separa en cadenas. Son pocas armas pero cada una se siente única.
+Las armas transformables (las llamadas _trick weapons_) son otro punto alto: cada una tiene dos formas con moveset completamente distinto. Una espada que se convierte en látigo, un cuchillo que se abre en hoz, un mazo enorme que se separa en cadenas. Son pocas armas pero cada una se siente única.
 
 Los jefes son el verdadero plato fuerte. Algunos te van a matar decenas de veces. Ninguno se siente injusto.
 
@@ -38,4 +38,4 @@ Si tienes paciencia para la curva de aprendizaje y te gusta explorar sin que te 
 
 Lo que sí es seguro: no hay otro juego que se sienta exactamente igual a Bloodborne. Y eso, en 2026, sigue siendo suficiente razón para jugarlo.
 
-> *"La cacería debe continuar."*
+> _"La cacería debe continuar."_
