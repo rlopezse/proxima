@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import formattedDate from '../../utils/date'
+import { formattedDate } from '../../utils/date'
 
 defineProps<{
   post: {

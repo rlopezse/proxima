@@ -3,7 +3,7 @@ title: De Yharnam a las Tierras Intermedias, mis primeras horas en Elden Ring
 slug: elden-ring-primeras-horas-desde-bloodborne
 subtitle: Acabo de terminar Bloodborne y su DLC, y me lancé directo a Elden Ring. Todavía estoy procesando lo que es este juego.
 category: gaming
-date: 2026-06-01
+date: 25-05-2026
 ---
 
 ![cover](./elden-ring-primeras-horas.webp)
