@@ -1,7 +1,7 @@
 ---
 title: GoPro, Filmora y aprender a ser arquero en video
 slug: gopro-filmora-arquero-highlights
-subtitle: Desde agosto de 2025 grabo mis partidos con una GoPro Hero 9 para mejorar como arquero. Sin quererlo, también aprendí a editar video.
+spoiler: Ser arquero no es fácil y editar videos tampoco.
 category: football
 date: 07-06-2026
 ---

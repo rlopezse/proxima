@@ -6,7 +6,7 @@ defineProps<{
     meta: {
       title: string
       date: string
-      subtitle: string
+      spoiler: string
     }
   }
 }>()
@@ -16,7 +16,7 @@ defineProps<{
   <div class="post_item">
     <p class="post_title">{{ post.meta.title }}</p>
     <p class="post_date">{{ formattedDate(post.meta.date) }}</p>
-    <p class="post_subtitle">{{ post.meta.subtitle }}</p>
+    <p class="post_spoiler">{{ post.meta.spoiler }}</p>
   </div>
 </template>
 
@@ -43,7 +43,7 @@ defineProps<{
   color: var(--gray-700);
 }
 
-.post_subtitle {
+.post_spoiler {
   font-size: 14px;
 }
 </style>

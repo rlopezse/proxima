@@ -1,7 +1,7 @@
 ---
 title: Bloodborne en 2026, ¿vale la pena jugarlo?
 slug: bloodborne-vale-la-pena-en-2026
-subtitle: Uno de los mejores juegos de FromSoftware cumple años y sigue siendo una experiencia única. Te contamos por qué todavía vale cada golpe y cada muerte.
+spoiler: Depente de tu paciencia.
 category: gaming
 date: 18-05-2026
 ---

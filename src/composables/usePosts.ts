@@ -4,7 +4,7 @@ import { parseDate } from '../utils/date'
 export interface PostMeta {
   title: string
   slug: string
-  subtitle: string
+  spoiler: string
   date: string
 }
 
@@ -22,7 +22,7 @@ export function usePosts(): Post[] {
       meta: {
         title: mod.title,
         slug: mod.slug,
-        subtitle: mod.subtitle,
+        spoiler: mod.spoiler,
         date: mod.date,
       },
       component: mod.default,
