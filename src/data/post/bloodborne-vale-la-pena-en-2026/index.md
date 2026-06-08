@@ -1,41 +1,31 @@
 ---
-title: Bloodborne en 2026, ¿vale la pena jugarlo?
-slug: bloodborne-vale-la-pena-en-2026
-spoiler: Depente de tu paciencia.
+title: Mi primer SoulsLike, Bloodborne
+slug: mi-primer-soulslike-bloodborne
+spoiler: Del odio y la frustación al amor y la satisfacción
 category: gaming
 date: 18-05-2026
 ---
 
 ![cover](./bloodborne-cover.webp)
 
-Hay juegos que envejecen. Y hay juegos que maduran. **Bloodborne** claramente es de los segundos.
+Años atrás, cuando estaba buscando un nuevo juego para gastar mi tiempo, me topé con Bloodborne. Ya había visto algo del juego, principalmente su estética victoriana y su atmósfera oscura, pero más allá de eso, el diseño retorcido de sus jefes me llamó mucho la atención. Mi favorito era Ludwig: su diseño, transformaciones, diálogos y música eran algo que simplemente no podía ignorar. Así que cuando encontré el juego barato en la PS4 Store, decidí darle una oportunidad.
 
-Lanzado en 2015 exclusivamente para PS4, el título de FromSoftware sigue siendo uno de los mejores action-RPGs jamás creados, y en 2026 —con más de una década encima— su propuesta se siente igual de fresca, brutal y absorbente que el primer día.
+### De la diversión a la frustración
 
-### El lore: una pesadilla con capas
+Ya sabía lo que significaba jugar un SoulsLike. De más está decir que leí y escuché comentarios hasta el cansancio de que no era un juego para todos, que era muy difícil, que te mataba mucho, que tenías que aprender de tus errores. Pero honestamente, no estaba preparado para nada.
 
-Bloodborne transcurre en **Yharnam**, una ciudad victoriana gótica donde los habitantes han sido infectados por una enfermedad de la sangre que los convierte en bestias. Llegas como un cazador buscando curación, y terminas enredado en algo mucho más profundo.
+Le dediqué un par de horas para ver si el juego y yo podíamos ser buenos amigos. Quería que me gustara porque algo en él me atrapaba — los jefes — y la idea era clara: llegar a Ludwig y vivir la misma experiencia que tuve la primera vez que lo vi, pero esta vez yo al mando.
 
-El lore no te lo cuentan directamente. Está escondido en descripciones de objetos, en la arquitectura, en los nombres de los enemigos. Cuanto más prestas atención, más inquietante se vuelve todo. La influencia de **H.P. Lovecraft** es brutal: hay cultos, entidades cósmicas, conocimiento que destruye la mente, y una delgada línea entre la locura y la iluminación.
+Error garrafal. No entendí el juego ni sus mecánicas. No había tutoriales, nadie te guía de la mano, no sabes qué usar ni a dónde ir. Gasté como tres horas tratando de entender (debí haber buscado algún tutorial), pero quería descubrirlo por mi cuenta, y eso me llevó a morir una y otra vez, a frustrarme, a sentir que el juego no era para mí, que era injusto. Ahí lo dejé tirado, sin haber matado siquiera al primer jefe, por pura frustración.
 
-No es un lore para todo el mundo, pero si te engancha, es de esos que te quedas pensando días.
+### Otra oportunidad, otro yo
 
-### La jugabilidad: agresividad como mecánica
+Años después de haberlo abandonado, quise darle otra oportunidad. Esta vez con la mentalidad de que no iba a ser fácil, que iba a morir mucho, pero que eso era parte del proceso. Empecé de nuevo con la misma ilusión de llegar a Ludwig, y creo que yo había cambiado con el tiempo, porque ahora todo me hacía clic: los parrys, las transformaciones, los niveles. Eso sí, esta vez miré algunos tutoriales y leí parte del lore para entender qué onda.
 
-Si vienes de otros Souls, olvida la estrategia de escudo y paciencia. Bloodborne te obliga a **atacar**. Quedarte quieto es morir. El sistema de rally te permite recuperar vida perdida si contraatacas rápido, lo que genera un loop de combate tenso, fluido y adictivo.
+Me fascinó. Fue una experiencia completamente diferente a cualquier otro juego. Matar a un jefe era difícil — aunque podías subir de nivel para hacerlo más manejable — pero la satisfacción de haberlo logrado no se compara con nada. Cada jefe tenía su propia personalidad, su propio estilo de pelea, su propia historia, y eso hacía que cada victoria fuera algo especial. Lo mismo con el ambiente: aprendí a mirar los rincones, bajo las escaleras, los techos, para encontrar objetos y secretos (aunque en un punto lo encontré tedioso, jajaja). Esta vez el juego y yo nos entendíamos, y cada vez que moría sabía que era mi culpa, que tenía que aprender y seguir adelante. Eso me motivaba a continuar.
 
-Las armas transformables (las llamadas _trick weapons_) son otro punto alto: cada una tiene dos formas con moveset completamente distinto. Una espada que se convierte en látigo, un cuchillo que se abre en hoz, un mazo enorme que se separa en cadenas. Son pocas armas pero cada una se siente única.
+### Ludwig, Lady María, Kos y el final del viaje del cazador
 
-Los jefes son el verdadero plato fuerte. Algunos te van a matar decenas de veces. Ninguno se siente injusto.
+Pasé y maté todo lo que se me puso por delante hasta llegar a Ludwig, y la experiencia fue tan buena como la imaginé: la música, el jefe, el ambiente, sus diálogos — todo fue perfecto. Creo haber muerto unas cincuenta veces antes de matarlo, pero por alguna razón lo pasé bien. Cada muerte era un aprendizaje, un "debí haber hecho tal cosa, la próxima lo hago diferente". Lo mismo con Lady María y Kos, el más difícil del juego. Una vez pasados los tres, el resto fue un paseo. Nada podía conmigo, ni siquiera la Apariencia Lunar, el jefe final.
 
-### ¿Vale jugarlo en 2026?
-
-**Sí, con matices.**
-
-El juego sigue siendo una obra maestra en términos de diseño, arte y atmósfera. Visualmente aguanta bien, aunque la resolución y los frames por segundo muestran su edad si vienes de juegos modernos (corre a 30fps en PS4 y PS5 sin parche oficial de 60fps, lo cual sigue siendo un tema de conversación en la comunidad).
-
-Si tienes paciencia para la curva de aprendizaje y te gusta explorar sin que te lleven de la mano, es una experiencia que difícilmente vas a olvidar. Si buscas algo más accesible o narrativamente explícito, puede frustrarte.
-
-Lo que sí es seguro: no hay otro juego que se sienta exactamente igual a Bloodborne. Y eso, en 2026, sigue siendo suficiente razón para jugarlo.
-
-> _"La cacería debe continuar."_
+Como conclusión, creo que así como hay cosas para las que uno no está preparado en el momento, mi experiencia con Bloodborne fue exactamente eso. No estaba listo para jugarlo hasta que realmente lo estuve. No volvería a jugarlo porque ya no es lo mismo, pero haberle dado otra oportunidad fue una buena decisión. ¿Lo recomiendo? No para todos, porque pone a prueba la paciencia y la capacidad de aprender de los errores. Pero si eres alguien que disfruta los desafíos, la exploración y la historia, definitivamente vale la pena.
