@@ -4,7 +4,7 @@ console.log('Bar component loaded')
 
 <template>
   <nav class="navbar">
-    <div class="navbar_containter">
+    <div class="navbar_container">
       <RouterLink to="/" class="navbar_logo">Proxima</RouterLink>
       <RouterLink to="/about" class="navbar_myself">
         <span>Sobre Mí</span><img src="../../assets/avatar.jpeg"
@@ -19,8 +19,8 @@ console.log('Bar component loaded')
   border-bottom: 1px solid var(--grey-300);
 }
 
-.navbar_containter {
-  max-width: 672px;
+.navbar_container {
+  max-width: 632px;
   width: calc(100% - 32px);
   margin: 0 auto;
   display: flex;
