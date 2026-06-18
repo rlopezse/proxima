@@ -1,39 +1,29 @@
 ---
 title: De Yharnam a las Tierras Intermedias, mis primeras horas en Elden Ring
 slug: elden-ring-primeras-horas-desde-bloodborne
-spoiler: Tengo juego para rato.
+spoiler: Harto que explorar
 category: gaming
 date: 25-05-2026
 ---
 
 ![cover](./elden-ring-primeras-horas.webp)
 
-Terminé Bloodborne. Terminé el DLC. Maté a Ludwig, sobreviví la Pesadilla, limpié Yharnam de todo lo que me pusieron enfrente. Y en lugar de tomarme un descanso, abrí Elden Ring.
+Y se terminó Bloodborne. Terminé el DLC. Maté a Ludwig (mi boss favorito) y al más difícil de todos, el Huérfano de Kos. Me costó la vida, Dios, cómo sufrí con ese boss. Estuve como cuatro días aprendiendo y memorizando su lista de movimientos, hasta que al fin el RNG se puso de mi lado y lo logré. Ya después de eso, el resto fue un paseo.
 
-Todavía no sé bien qué pensar. Y creo que eso es parte de la experiencia.
+### Un gusto adquirido
 
-### Sales al campo y no hay techo
+Honestamente, los juegos tipo souls nunca me llamaron la atención como para yo ser el que los juega, pero sí me gustaba ver gameplays, speedruns y leer sobre el lore (es como League of Legends: me gusta, pero nunca sentí que fuera algo para mí). Después de terminar Bloodborne por mi cuenta, todo eso cambió.
 
-Lo primero que te impacta cuando vienes de Bloodborne es la escala del mundo. Yharnam era una ciudad laberíntica, densa, construida hacia adentro. Cada callejón te llevaba a otro callejón que de alguna forma volvía al inicio. Era diseño de niveles puro, casi musical.
+### De Yharnam a las Tierras Intermedias
 
-Las Tierras Intermedias son otra cosa completamente. Sales de la Capilla Semienterrada y hay un campo enorme frente a ti. Sin marcadores. Sin un NPC que te diga a dónde ir. Solo pasto, ruinas a lo lejos, y ese árbol dorado gigante en el horizonte que claramente es importante, pero nadie te lo confirma.
+Un día me encontré buscando juegos tipo souls. Tenía en mente Sekiro, Dark Souls 3, Lies of P y Elden Ring. Al final lo resolví simple: cualquiera que estuviera barato sería el siguiente. Y así fue que me topé con Elden Ring (usado) a 40 lucas en Mercado Libre. Bueno, será. Como con Bloodborne, ya conocía los jefes, parte del lore y algún que otro speedrun.
 
-La primera reacción fue desorientación. La segunda fue curiosidad. La tercera fue morir a manos de un jinete que claramente no tenía que enfrentar todavía.
+### Primeras (muchas) horas
 
-### El combate se siente distinto, y todavía me estoy adaptando
+Mis primeras horas fueron puro aprendizaje. Me costó acostumbrarme al timing. A diferencia de Bloodborne, Elden Ring tiene un ritmo más lento: entre ataques, esquives y bloqueos, me hizo sentir medio tonto al inicio, como si alguien me dijera que bajara un cambio en el auto. Después de algunas horas me "acostumbré", aunque hasta el momento igual me cuesta.
 
-Bloodborne te entrena para ser agresivo. El rally, la velocidad, la presión constante de ir hacia adelante. Ese músculo queda muy marcado después de decenas de horas.
+Con eso dicho, y con un par de gracias activadas, me dieron un caballo que me permitió explorar gran parte de la primera zona (antes de llegar al primer boss). La verdad me agobió un poco: muchos caminos, dungeons, minijefes. Al final terminé haciendo de todo menos avanzar en la historia principal. No es del todo malo, pero cuando pierdes el foco, la historia no pega igual (o quizás soy yo).
 
-Aquí el combate es más lento, más pesado. La primera hora estuve esquivando en los momentos equivocados y atacando cuando no debía, esperando una ventana de rally que nunca llegó. Todavía no llegué a los jefes principales — estoy explorando, muriendo contra enemigos de campo, aprendiendo a leer el ritmo del juego.
+Fuera de eso, ha sido una gran experiencia. Me gusta mucho el ambiente, la música, el lore (que tuve que buscar en YouTube y preguntarle a ChatGPT) y la sensación de no saber a dónde ir porque hay mil caminos válidos y otros no tanto.
 
-No sé si me va a gustar más o menos que Bloodborne. Todavía es muy pronto para saberlo.
-
-### Torrent y la promesa de lo que viene
-
-Llegué a la gracia donde te entregan a Torrent, el caballo espectral, y algo hizo clic.
-
-No sé si fue el momento en sí o lo que implica: que el mundo es tan grande que necesitas montura para atravesarlo. Que hay lugares que todavía no puedo ver pero que existen. Que la promesa de lo que viene es enorme.
-
-Por ahora solo estoy al principio. Más preguntas que respuestas, más muertes que victorias, y una lista mental de lugares que vi desde lejos y que quiero explorar.
-
-Si eso es señal de algo, creo que es buena señal.
+Ahora me encuentro explorando la zona post-Radahn: la Ciudad Eterna. Falta mucho por explorar y subir de nivel, pero me lo tomo con calma. No tengo prisa. Sé que en algún momento tiene que terminar, pero mientras tanto, disfruto y paso rabias a mi tiempo.
