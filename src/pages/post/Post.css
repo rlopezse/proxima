@@ -30,8 +30,11 @@
 }
 
 .post_content .markdown-body a {
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: underline;
+  font-family:
+    source-serif-pro, Georgia, Cambria, 'Times New Roman', Times, serif;
+  color: var(--primary);
 }
 
 .post_content .markdown-body ul {
