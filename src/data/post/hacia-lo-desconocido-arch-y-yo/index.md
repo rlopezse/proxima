@@ -19,4 +19,3 @@ No sé por qué sigo ignorando la abstracción de los programas y sistemas opera
 Esta vez voy a intentar hacer las cosas diferente. Que el proceso sea como el de Neovim: usar más la terminal, navegar con ella, mover y eliminar archivos sin depender de una interfaz de carpetas. Para eso está Arch, si no me quedaba con Mac.
 
 Más que diversión, espero que todo sea caótico. Instalar cosas que no sirvan, romper el sistema, reinstalar todo. Eso es parte del proceso, y en parte es por lo que estoy acá, a punto de adentrarme en lo desconocido.
-
