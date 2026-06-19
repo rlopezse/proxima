@@ -16,7 +16,6 @@ Ahí apareció [ThePrimeagen](https://www.youtube.com/c/theprimeagen) y un estil
 
 Y algo en mí dijo: esto es lo que me falta. No seguir haciendo CRUDs ni proyectos que me llevarían al mismo lugar que todos, sino algo que me motivara a salir de verdad de mi zona de confort. Y entonces empecé.
 
-
 ![cover](./cover-soflergb.webp)
 
 ### Mi primer contacto con un teclado split y Neovim

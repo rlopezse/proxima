@@ -15,11 +15,13 @@ const post = computed(() =>
 const isFullscreen = ref(false)
 
 function ClicEvent(event: MouseEvent) {
-  if (event.target.tagName === 'IMG') {
+  const target = event.target as HTMLImageElement
+
+  if (target.tagName === 'IMG') {
     isFullscreen.value = !isFullscreen.value
     document.body.style.overflow = isFullscreen.value ? 'hidden' : ''
     document.body.classList.toggle('enlarged', isFullscreen.value)
-    event.target.classList.toggle('enlarged', isFullscreen.value)
+    target.classList.toggle('enlarged', isFullscreen.value)
   }
 }
 </script>
@@ -42,5 +44,4 @@ function ClicEvent(event: MouseEvent) {
   </div>
 </template>
 
-<script lang="ts">
-</script>
+<script lang="ts"></script>
