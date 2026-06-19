@@ -75,9 +75,23 @@
 }
 
 .post_content .markdown-body img {
+  cursor: zoom-in;
   max-width: 100%;
   border-radius: 8px;
   margin-bottom: 16px;
+}
+
+.post_content .markdown-body img.enlarged {
+  cursor: zoom-out;
+  position: fixed;
+  width: calc(100% - 64px);
+  max-width: 1080px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
 }
 
 .post_back {

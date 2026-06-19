@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { usePosts } from '../../composables/usePosts'
 import { formattedDate } from '../../utils/date'
@@ -11,6 +11,17 @@ const posts = usePosts()
 const post = computed(() =>
   posts.find((p) => p.meta.slug === route.params.slug),
 )
+
+const isFullscreen = ref(false)
+
+function ClicEvent(event: MouseEvent) {
+  if (event.target.tagName === 'IMG') {
+    isFullscreen.value = !isFullscreen.value
+    document.body.style.overflow = isFullscreen.value ? 'hidden' : ''
+    document.body.classList.toggle('enlarged', isFullscreen.value)
+    event.target.classList.toggle('enlarged', isFullscreen.value)
+  }
+}
 </script>
 
 <template>
@@ -20,7 +31,9 @@ const post = computed(() =>
         <h1>{{ post.meta.title }}</h1>
         <span>{{ formattedDate(post.meta.date) }}</span>
       </div>
-      <component :is="post.component" />
+      <div @click="ClicEvent">
+        <component :is="post.component" />
+      </div>
       <div class="post_back">
         <RouterLink to="/">proxima</RouterLink>
       </div>
@@ -28,3 +41,6 @@ const post = computed(() =>
     <div v-else>Post no encontrado.</div>
   </div>
 </template>
+
+<script lang="ts">
+</script>
