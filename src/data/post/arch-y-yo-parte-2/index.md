@@ -6,6 +6,8 @@ category: programming
 date: 21-06-2026
 ---
  
+![cover](./arch-yo-parte-2.webp)
+
 Lo logré. Terminé de ajustar todo: Neovim, Tmux, Hyprland, Hyprpaper. Eliminé lo que no hacía falta y dejé el sistema lo más simple posible. Hubo algunos problemas con el Bluetooth y el Wi-Fi, pero nada que un `pacman` o un `journalctl` no resuelvan.
  
 También pude configurar Git, mandar algunos commits y ajustar Waybar para que quedara igual de simple: sin tanto color ni animaciones raras. En algún momento quería que se viera como esas configuraciones de Unix que aparecen en Reddit, pero a nivel de utilidad creo que resta más que suma. No quiero tener que pensar tanto en el entorno, quiero actuar y que la máquina me acompañe.
@@ -16,6 +18,8 @@ Cuando terminé de configurar todo el setup, caí en la cuenta de algo: Arch es 
  
 Entender eso me decepcionó un poco. No porque sea malo, sino porque el misterio desaparece cuando sabes qué hay detrás.
  
+![cover](./theyre-the-same-picture-pam-the-office-meme.webp)
+
 ### Pensamientos finales
  
 Fuera de todo, fue una gran experiencia. Instalar cosas desde cero, activar y desactivar servicios, simplificar el sistema hasta entender exactamente qué tengo y qué me falta, perderle el miedo a Arch como algo que solo un mago podría instalar. Me apoyé bastante en Google, Reddit y ChatGPT para hacer funcionar algunas cosas, pero el aprendizaje queda.
