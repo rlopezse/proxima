@@ -1,25 +1,9 @@
 <template>
   <section class="about_container">
-    <div class="about_block">
-      <h1 class="about_h1">Sobre Mí</h1>
-      <p class="about_paragraph">
-        Soy un desarrollador Front-End con más de 10 años de experiencia
-        construyendo productos digitales de alto tráfico. Especializado en
-        React, TypeScript y arquitecturas orientadas a performance y experiencia
-        de usuario. Perfil híbrido con capacidad para traducir requerimientos de
-        negocio en soluciones técnicas sólidas, con foco en métricas, calidad de
-        código y mejora continua.
-      </p>
-    </div>
-
-    <div class="about_block">
-      <h2 class="about_h2">Sobre Próxima</h2>
-      <p class="about_paragraph">
-        Próxima es un proyecto Front-End (blog) hecho en Vue.js, en el cual,
-        mientras programo con algo diferente, escribo sobre mí y algunas
-        vivencias de mi vida personal y como desarrollador.
-      </p>
-    </div>
+    <ul class="about_block">
+      <li><a href="https://www.linkedin.com/in/rlopezse/" target="_blank" class="about_link"> - Sobre mí (Profesionalmente)</a></li>
+      <li><a href="https://github.com/rlopezse" target="_blank" class="about_link"> - Mis proyectos personales</a></li>
+    </ul>
   </section>
 </template>
 
@@ -52,5 +36,9 @@
 
 .about_link {
   color: var(--primary);
+}
+
+.about_link:hover {
+  text-decoration: underline;
 }
 </style>
