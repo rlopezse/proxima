@@ -1,8 +1,24 @@
 <template>
   <section class="about_container">
     <ul class="about_block">
-      <li><a href="https://www.linkedin.com/in/rlopezse/" target="_blank" class="about_link"> - Sobre mí (Profesionalmente)</a></li>
-      <li><a href="https://github.com/rlopezse" target="_blank" class="about_link"> - Mis proyectos personales</a></li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/rlopezse/"
+          target="_blank"
+          class="about_link"
+        >
+          - Sobre mí (Profesionalmente)</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/rlopezse"
+          target="_blank"
+          class="about_link"
+        >
+          - Mis proyectos personales</a
+        >
+      </li>
     </ul>
   </section>
 </template>

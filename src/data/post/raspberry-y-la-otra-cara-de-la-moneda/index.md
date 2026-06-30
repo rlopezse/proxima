@@ -5,6 +5,7 @@ spoiler: No era tan complejo como parecía
 category: tech
 date: 26-06-2026
 ---
+
 ![cover](./cover-desiciones.webp)
 
 Desde siempre, como programador, tuve curiosidad por los servidores (o servers, que suena más cool). Pensaba que era algo raro lleno de cables que estaba en algún lugar etéreo de internet, que solo los backends y los expertos tenían acceso y lo entendían. Tiempo después, cuando me harté un poco del front-end, me propuse investigar qué tanto había con los servers, los errores 500, la infraestructura, la arquitectura y todo eso.
