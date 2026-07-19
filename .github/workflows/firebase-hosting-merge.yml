@@ -29,4 +29,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROXIMAPROJECT }}
           channelId: live
-          projectId: proyectproxima
+          projectId: proximaproject-99b59
