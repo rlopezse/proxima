@@ -6,7 +6,6 @@ category: programming
 date: 10-07-2026
 ---
 
-
 Desde hace algunos años me he estado cuestionando por qué, como programadores (y a veces como personas), tendemos a casarnos tanto con un tema en particular. No solo pasa en la programación: eres frontend y parece que el backend estuviera prohibido o fuera algo de otro mundo que costaría eones entender. También pasa con la música: me gusta un estilo y si escucho otro, parezco un traidor a mi propio gusto. Y así con muchas cosas más.
 
 Pero ¿qué pasaría si exploraras otras formas de programar, otros estilos musicales, otros géneros que piensas que no te gustan y terminan siendo lo mejor que pudiste haber hecho? Dicen que salir de la zona de confort es bueno, pero no siempre es fácil. A veces es incómodo y otras veces es frustrante, pero si lo haces con la mente abierta y sin prejuicios, suele valer la pena.
