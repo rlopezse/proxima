@@ -45,4 +45,3 @@ Me sentí engañado por un juego que te guía en una dirección y al final desca
 Quizás me apresuré en jugar otro Souls, o quizás este juego simplemente no era para mí en este momento. Sigo pensando que Bloodborne tuvo las reglas claras desde el inicio y las mantuvo hasta el final. Con Elden Ring no fue así, y el mal trago de haber invertido tanto para que al final nada de eso importara hizo que la chispa que traía de Bloodborne se apagara un poco.
 
 No es un mal juego. Pero sí fue una mala despedida.
-
