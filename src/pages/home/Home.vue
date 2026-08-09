@@ -2,6 +2,11 @@
 import { usePosts } from '../../composables/usePosts'
 import PostItem from '../../components/post-item/PostItem.vue'
 const posts = usePosts()
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: '',
+})
 </script>
 
 <template>

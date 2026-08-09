@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { useHead } from '@unhead/vue'
+useHead({
+  title: 'Sobre mí',
+})
+</script>
 <template>
   <section class="about_container">
     <ul class="about_block">
