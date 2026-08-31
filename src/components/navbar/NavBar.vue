@@ -1,14 +1,30 @@
 <script setup lang="ts">
-console.log('Bar component loaded')
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import type { Lang } from '../../composables/usePosts'
+
+const route = useRoute()
+const lang = computed<Lang>(() => (route.meta.lang as Lang) ?? 'es')
+const homeLink = computed(() => (lang.value === 'en' ? '/en' : '/'))
+const switchLink = computed(() => (lang.value === 'en' ? '/' : '/en'))
+const switchLabel = computed(() => (lang.value === 'en' ? 'ES' : 'EN'))
 </script>
 
 <template>
   <nav class="navbar">
     <div class="navbar_container">
-      <RouterLink to="/" class="navbar_logo">Proxima</RouterLink>
-      <RouterLink to="/about" class="navbar_myself">
-        <span>Sobre Mí</span><img src="../../assets/avatar.jpeg"
-      /></RouterLink>
+      <RouterLink :to="homeLink" class="navbar_logo">Proxima</RouterLink>
+      <a
+        href="https://ronaldlz.dev/"
+        target="_blank"
+        rel="noopener"
+        class="navbar_myself"
+      >
+        <span>{{ lang === 'en' ? 'About Me' : 'Sobre Mí' }}</span>
+      </a>
+      <RouterLink :to="switchLink" class="lang_toggle">{{
+      switchLabel
+      }}</RouterLink>
     </div>
   </nav>
 </template>
@@ -16,7 +32,7 @@ console.log('Bar component loaded')
 <style scoped>
 .navbar {
   padding: 16px 0;
-  border-bottom: 1px solid var(--grey-300);
+  border-bottom: 1px solid var(--gray-200);
 }
 
 .navbar_container {
@@ -34,19 +50,27 @@ console.log('Bar component loaded')
   cursor: pointer;
 }
 
+.lang_toggle {
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--B);
+  cursor: pointer;
+}
+
+.lang_toggle:hover {
+  opacity: 0.8;
+}
+
 .navbar_myself {
+  margin-left: auto;
   cursor: pointer;
   transition: color 0.3s ease;
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 16px;
-}
-
-.navbar_myself img {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
+  font-size: 15px;
+  padding: 0 12px;
+  border-right: 1px solid var(--gray-200);
 }
 
 .navbar_myself:hover {

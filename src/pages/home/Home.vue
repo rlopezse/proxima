@@ -1,8 +1,14 @@
 <script setup lang="ts">
-import { usePosts } from '../../composables/usePosts'
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import { usePosts, type Lang } from '../../composables/usePosts'
 import PostItem from '../../components/post-item/PostItem.vue'
-const posts = usePosts()
 import { useHead } from '@unhead/vue'
+
+const route = useRoute()
+const lang = computed<Lang>(() => (route.meta.lang as Lang) ?? 'es')
+const posts = computed(() => usePosts(lang.value))
+const linkPrefix = computed(() => (lang.value === 'en' ? '/en/' : '/'))
 
 useHead({
   title: '',
@@ -12,8 +18,8 @@ useHead({
 <template>
   <div class="post">
     <div v-for="post in posts" :key="post.meta.slug">
-      <RouterLink :to="`/${post.meta.slug}`">
-        <PostItem :post="post" />
+      <RouterLink :to="`${linkPrefix}${post.meta.slug}`">
+        <PostItem :post="post" :lang="lang" />
       </RouterLink>
     </div>
   </div>
