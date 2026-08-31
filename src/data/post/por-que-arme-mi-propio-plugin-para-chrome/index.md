@@ -1,5 +1,5 @@
 ---
-title: Por qué armé mi propio plugin para Chrome
+title: ¿Por qué armé mi propio plugin para Chrome?
 slug: por-que-arme-mi-propio-plugin-para-chrome
 spoiler: Programando para solucionar problemas cotidianos
 category: programming
