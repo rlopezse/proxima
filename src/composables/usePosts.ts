@@ -1,5 +1,11 @@
-const modules = import.meta.glob('/src/data/post/**/index.md', { eager: true })
 import { parseDate } from '../utils/date'
+
+export type Lang = 'es' | 'en'
+
+const modulesByLang = {
+  es: import.meta.glob('/src/data/post/**/index.md', { eager: true }),
+  en: import.meta.glob('/src/data/post-en/**/index.md', { eager: true }),
+}
 
 export interface PostMeta {
   title: string
@@ -13,8 +19,8 @@ export interface Post {
   component: any
 }
 
-export function usePosts(): Post[] {
-  return Object.values(modules)
+export function usePosts(lang: Lang = 'es'): Post[] {
+  return Object.values(modulesByLang[lang])
     .sort((a: any, b: any) => {
       return parseDate(b.date) - parseDate(a.date)
     })

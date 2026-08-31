@@ -5,9 +5,11 @@ import Post from '../pages/post/Post.vue'
 import About from '../pages/about/About.vue'
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/', component: Home, meta: { lang: 'es' } },
   { path: '/about', component: About },
-  { path: '/:slug', component: Post },
+  { path: '/en', component: Home, meta: { lang: 'en' } },
+  { path: '/en/:slug', component: Post, meta: { lang: 'en' } },
+  { path: '/:slug', component: Post, meta: { lang: 'es' } },
 ]
 
 const router = createRouter({

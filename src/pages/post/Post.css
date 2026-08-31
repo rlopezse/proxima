@@ -94,6 +94,37 @@
   z-index: 2;
 }
 
+.post_divider {
+  margin-top: calc(32px * 2);
+  border: none;
+  border-top: 1px solid var(--gray-300);
+}
+
+.post_nav {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.post_nav_link {
+  font-size: 14px;
+  color: var(--gray-500);
+}
+
+.post_nav_link:last-child {
+  text-align: right;
+}
+
+.post_nav_link_title {
+  color: var(--gray-800);
+}
+
+.post_nav_link_title:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
 .post_back {
   margin-top: calc(32px * 2);
   font-size: 24px;

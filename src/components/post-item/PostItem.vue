@@ -1,21 +1,28 @@
 <script setup lang="ts">
 import { formattedDate } from '../../utils/date'
+import type { Lang } from '../../composables/usePosts'
 
-defineProps<{
-  post: {
-    meta: {
-      title: string
-      date: string
-      spoiler: string
+const props = withDefaults(
+  defineProps<{
+    post: {
+      meta: {
+        title: string
+        date: string
+        spoiler: string
+      }
     }
-  }
-}>()
+    lang?: Lang
+  }>(),
+  { lang: 'es' },
+)
+
+const dateLocale = props.lang === 'en' ? 'en-US' : 'es-CL'
 </script>
 
 <template>
   <div class="post_item">
     <p class="post_title">{{ post.meta.title }}</p>
-    <p class="post_date">{{ formattedDate(post.meta.date) }}</p>
+    <p class="post_date">{{ formattedDate(post.meta.date, dateLocale) }}</p>
     <p class="post_spoiler">{{ post.meta.spoiler }}</p>
   </div>
 </template>
