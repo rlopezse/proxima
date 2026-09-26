@@ -7,6 +7,8 @@ date: 26-09-2026
 draft: false
 ---
 
+![retired programmer](./programador_retirado.webp)
+
 for several weeks now i've been watching youtube videos, scrolling through twitter and other social media, and i think that at this point ai is inevitable in the world of software development, and there's no turning back.
 
 i just watched a video by @dhh in which he expresses perfectly how i feel right now. writing code by hand, until not long ago, was the norm, an art, something you could spend hours and hours perfecting, polishing every detail. i still remember the joke: i spent hours trying to fix this bug and the problem was a missing ;, something that today, with all the technological progress we have, sounds bad in taste to hear someone say.
