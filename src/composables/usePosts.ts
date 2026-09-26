@@ -21,6 +21,7 @@ export interface Post {
 
 export function usePosts(lang: Lang = 'es'): Post[] {
   return Object.values(modulesByLang[lang])
+    .filter((mod: any) => !mod.draft)
     .sort((a: any, b: any) => {
       return parseDate(b.date) - parseDate(a.date)
     })
