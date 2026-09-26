@@ -1,4 +1,4 @@
-import { useState, type MouseEvent } from 'react'
+import { useEffect, useRef, useState, type MouseEvent } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { usePosts, type Lang } from '../../hooks/usePosts'
 import { formattedDate } from '../../utils/date'
@@ -23,19 +23,38 @@ export default function Post({ lang = 'es' }: PostProps) {
   const previousPost = posts[currentIndex + 1]
   const nextPost = currentIndex > 0 ? posts[currentIndex - 1] : undefined
 
-  const [isFullscreen, setIsFullscreen] = useState(false)
+  const contentRef = useRef<HTMLDivElement>(null)
+  const [enlargedSrc, setEnlargedSrc] = useState<string | null>(null)
 
   function handleClick(event: MouseEvent<HTMLDivElement>) {
     const target = event.target as HTMLImageElement
 
     if (target.tagName === 'IMG') {
-      const next = !isFullscreen
-      setIsFullscreen(next)
-      document.body.style.overflow = next ? 'hidden' : ''
-      document.body.classList.toggle('enlarged', next)
-      target.classList.toggle('enlarged', next)
+      setEnlargedSrc((current) => (current === target.src ? null : target.src))
     }
   }
+
+  // A post's HTML comes from dangerouslySetInnerHTML, so the <img> node
+  // clicked below can be replaced by a fresh, class-less one on a later
+  // re-render (e.g. from prev/next navigation). Re-syncing the "enlarged"
+  // class here on every render — instead of toggling it once inside
+  // handleClick — keeps it in sync with state regardless of node identity.
+  useEffect(() => {
+    const images = contentRef.current?.querySelectorAll('img') ?? []
+    images.forEach((img) => {
+      img.classList.toggle('enlarged', img.src === enlargedSrc)
+    })
+  })
+
+  useEffect(() => {
+    document.body.classList.toggle('enlarged', enlargedSrc !== null)
+    document.body.style.overflow = enlargedSrc !== null ? 'hidden' : ''
+
+    return () => {
+      document.body.classList.remove('enlarged')
+      document.body.style.overflow = ''
+    }
+  }, [enlargedSrc])
 
   if (!post) {
     return (
@@ -54,7 +73,7 @@ export default function Post({ lang = 'es' }: PostProps) {
           <h1>{post.meta.title}</h1>
           <span>{formattedDate(post.meta.date, dateLocale)}</span>
         </div>
-        <div onClick={handleClick}>
+        <div ref={contentRef} onClick={handleClick}>
           <PostContent />
         </div>
         <hr className="post_divider" />
