@@ -7,6 +7,8 @@ date: 26-09-2026
 draft: false
 ---
 
+![programador retirado](./programador_retirado.webp)
+
 desde hace varias semanas he estado viendo videos de youtube, recorriendo twitter y otras rrss, y creo que a estas alturas del partido la ia es inevitable en el mundo del desarrollo de software, y que no hay vuelta atrás.
 
 acabo de ver un video de @dhh en el cual expresa perfectamente cómo me siento ahora mismo. escribir código a mano hasta hace no mucho era la norma, un arte, algo en lo que podías pasar horas y horas perfeccionando, puliendo cada detalle. aún recuerdo el chiste de: estuve horas intentando resolver este bug y el problema era un ;, algo que hoy, con todo el avance tecnológico que tenemos, resulta de mal gusto escuchar a alguien decir.
