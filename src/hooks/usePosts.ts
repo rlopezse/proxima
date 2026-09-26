@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { parseDate } from '../utils/date'
 
 export type Lang = 'es' | 'en'
@@ -19,12 +20,10 @@ export interface Post {
   component: any
 }
 
-export function usePosts(lang: Lang = 'es'): Post[] {
+function getPosts(lang: Lang): Post[] {
   return Object.values(modulesByLang[lang])
     .filter((mod: any) => !mod.draft)
-    .sort((a: any, b: any) => {
-      return parseDate(b.date) - parseDate(a.date)
-    })
+    .sort((a: any, b: any) => parseDate(b.date) - parseDate(a.date))
     .map((mod: any) => ({
       meta: {
         title: mod.title,
@@ -34,4 +33,8 @@ export function usePosts(lang: Lang = 'es'): Post[] {
       },
       component: mod.default,
     }))
+}
+
+export function usePosts(lang: Lang = 'es'): Post[] {
+  return useMemo(() => getPosts(lang), [lang])
 }
