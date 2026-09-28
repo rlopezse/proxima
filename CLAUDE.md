@@ -83,7 +83,3 @@ Uses `react-helmet-async` for `<title>`/meta management, via the `<HelmetProvide
 ### Deployment
 
 Firebase Hosting serves the `dist/` SPA build with a catch-all rewrite to `index.html` (see `firebase.json`). `.github/workflows/firebase-hosting-merge.yml` auto-deploys on push to `main` (pnpm install → build → deploy via `FirebaseExtended/action-hosting-deploy`). There is no PR-preview workflow — only merge-to-main deploys.
-
-## Known issues
-
-`Post.tsx`'s fullscreen-image click handler (`handleClick`) sets `document.body`'s `enlarged` class correctly and it persists, but `target.classList.toggle('enlarged', next)` on the clicked `<img>` itself gets silently reverted within a few hundred ms — confirmed via `MutationObserver` that the exact DOM node holding the class gets swapped out from under it (not just the class removed), and confirmed it isn't a `<StrictMode>` double-invoke artifact (reproduced with `StrictMode` removed too). Worth checking whether the `.markdown-body` div's `dangerouslySetInnerHTML` is being reset on some re-render despite an unchanged `__html` string (which should normally make React skip touching that subtree).
