@@ -1,1 +1,3 @@
-Próxima es un blog personal que creé porque quería un espacio propio donde escribir, inspirado en el diseño minimalista de overreacted.io. Los posts los armo con ayuda de Claude Code: le paso una historia, me ayuda con el relato y yo termino de ajustarlo.
+Un blog personal minimalista de estilo editorial donde escribo sobre experiencias personales, juegos y desarrollo de software.
+
+https://proxima-project.com/
