@@ -1,5 +1,5 @@
 ---
-title: NeoVim, Split Keyboards y un nuevo mundo.
+title: Neovim, Split Keyboards y un nuevo mundo.
 slug: neovim-split-keyboards-nuevo-mundo
 spoiler: Costó, pero ¿valió la pena?
 category: tech
