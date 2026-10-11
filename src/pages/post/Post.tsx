@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type MouseEvent } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { usePosts, type Lang } from '../../hooks/usePosts'
-import { formattedDate } from '../../utils/date'
+import { formattedDate, formattedReadTime } from '../../utils/date'
 import './Post.css'
 
 interface PostProps {
@@ -71,7 +71,10 @@ export default function Post({ lang = 'es' }: PostProps) {
       <div className="post_content">
         <div className="post_header">
           <h1>{post.meta.title}</h1>
-          <span>{formattedDate(post.meta.date, dateLocale)}</span>
+          <span>
+            {formattedDate(post.meta.date, dateLocale)} ·{' '}
+            {formattedReadTime(post.meta.readTime, lang)}
+          </span>
         </div>
         <div ref={contentRef} onClick={handleClick}>
           <PostContent />

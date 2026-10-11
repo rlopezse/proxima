@@ -14,3 +14,9 @@ export const parseDate = (dateStr: string): number => {
   const [day, month, year] = dateStr.split('-').map(Number)
   return new Date(year, month - 1, day).getTime()
 }
+
+export const formattedReadTime = (
+  minutes: number,
+  lang: 'es' | 'en' = 'es',
+): string =>
+  lang === 'en' ? `${minutes} min read` : `${minutes} min de lectura`

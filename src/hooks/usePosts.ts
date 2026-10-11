@@ -13,6 +13,7 @@ export interface PostMeta {
   slug: string
   spoiler: string
   date: string
+  readTime: number
 }
 
 export interface Post {
@@ -30,6 +31,7 @@ function getPosts(lang: Lang): Post[] {
         slug: mod.slug,
         spoiler: mod.spoiler,
         date: mod.date,
+        readTime: mod.readTime,
       },
       component: mod.default,
     }))

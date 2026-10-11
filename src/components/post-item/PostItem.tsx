@@ -1,5 +1,5 @@
 import type { Post, Lang } from '../../hooks/usePosts'
-import { formattedDate } from '../../utils/date'
+import { formattedDate, formattedReadTime } from '../../utils/date'
 import styles from './PostItem.module.css'
 
 interface PostItemProps {
@@ -14,7 +14,8 @@ export default function PostItem({ post, lang = 'es' }: PostItemProps) {
     <div className={styles.post_item}>
       <p className={styles.post_title}>{post.meta.title}</p>
       <p className={styles.post_date}>
-        {formattedDate(post.meta.date, dateLocale)}
+        {formattedDate(post.meta.date, dateLocale)} ·{' '}
+        {formattedReadTime(post.meta.readTime, lang)}
       </p>
       <p className={styles.post_spoiler}>{post.meta.spoiler}</p>
     </div>
