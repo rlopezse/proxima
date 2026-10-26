@@ -4,7 +4,7 @@ slug: tienes-que-usar-las-manos-para-programar
 spoiler: Eso es para los bebés, no crees?
 category:
 date: 26-10-2026
-draft: true
+draft: false
 ---
 
 Esta semana, entre que configuraba (nuevamente) Ghostty con Neovim y tmux, caí en la cuenta (nuevamente) a que mi flujo de trabajo se había transformado en un 90% de uso de Claude Code y un 10% entre revisar y escribir código.

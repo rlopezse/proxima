@@ -4,7 +4,7 @@ slug: do-you-have-to-use-your-hands-to-code
 spoiler: That's like a baby's toy
 category:
 date: 26-10-2026
-draft: true
+draft: false
 ---
 
 This week, while I was setting up (again) Ghostty with Neovim and tmux, I realized (again) that my workflow had turned into 90% Claude Code and 10% reviewing and writing code.
