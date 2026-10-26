@@ -7,6 +7,8 @@ date: 26-10-2026
 draft: false
 ---
 
+![editor](./editor.webp)
+
 Esta semana, entre que configuraba (nuevamente) Ghostty con Neovim y tmux, caí en la cuenta (nuevamente) a que mi flujo de trabajo se había transformado en un 90% de uso de Claude Code y un 10% entre revisar y escribir código.
 
 Por lo mismo, en un punto pensé que tmux se iba a volver inservible para mí, porque ya no tenía 2 bloques abiertos por pestaña, sino uno solo que controla Claude Code. Así que me pregunté si ya era hora de hacer un cambio de herramienta (nuevamente), de Ghostty a algo más orientado a los agentes. Lo malo de esta terminal es que cuando un agente termina de trabajar no te avisa, los links que te entrega no son dinámicos y tienes que ir a buscar 1 por 1 qué cambios hay, qué comandos ejecutó, etc.
@@ -22,6 +24,8 @@ Luego intenté con cmux. Este era mejor, 100% orientado a los agentes, con una i
 Mientras le preparaba el desayuno de cumpleaños a mi esposa, pensé que con todo esto de la IA, en algún punto el software puede llegar a ser tan "democrático" que cada uno tenga sus propios programas. Yo tengo mi editor de código, otra persona tiene el suyo y así, con un nivel de customización que va más allá de solo cambiarle el color y la tipografía al editor.
 
 Y recordé que a Theo de [T3](https://t3.gg/) le pasó algo similar y terminó creando una herramienta inspirada en cmux, un híbrido entre eso y la interfaz de los chats de IA (ChatGPT, Claude, etc.). Entre prueba y prueba me gustó. Es una beta, pero es más o menos lo que imaginaba: una ventana de estado, comandos que se están ejecutando, archivos editados, diffs, links cliqueables, etc. Algo bueno para toda esta transición hacia los agentes.
+
+![Volver al Futuro II](./btf2.webp)
 
 ### ¿Tienes que usar las manos?
 
