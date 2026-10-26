@@ -7,6 +7,8 @@ date: 26-10-2026
 draft: false
 ---
 
+![editor](./editor.webp)
+
 This week, while I was setting up (again) Ghostty with Neovim and tmux, I realized (again) that my workflow had turned into 90% Claude Code and 10% reviewing and writing code.
 
 Because of that, at some point I thought tmux was going to become useless for me, since I no longer had 2 panes open per tab, just a single one controlling Claude Code. So I wondered if it was time to switch tools (again), from Ghostty to something more agent-oriented. The downside of this terminal is that when an agent finishes working it doesn't notify you, the links it gives you aren't dynamic, and you have to go hunting 1 by 1 for what changed, which commands it ran, etc.
@@ -22,6 +24,8 @@ Then I tried cmux. This one was better, 100% agent-oriented, with an interface j
 While I was making my wife's birthday breakfast, I thought that with all this AI stuff, at some point software might become so "democratic" that everyone has their own programs. I have my code editor, someone else has theirs, and so on, a level of customization that goes far beyond just changing the editor's color and font.
 
 And I remembered that Theo from [T3](https://t3.gg/) went through something similar and ended up building a tool inspired by cmux, a hybrid between that and the interface of AI chats (ChatGPT, Claude, etc.). After trying it out, I liked it. It's a beta, but it's more or less what I imagined: a status window, commands being run, edited files, diffs, clickable links, etc. Something good for this whole transition toward agents.
+
+![Back to the Future Part II](./btf2.webp)
 
 ### Do you have to use your hands?
 
