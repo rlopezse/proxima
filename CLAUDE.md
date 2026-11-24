@@ -19,6 +19,8 @@ There is no test suite or linter beyond `tsc` type-checking and Prettier formatt
 
 Package manager is pnpm (pinned via `packageManager` in package.json — use pnpm, not npm/yarn).
 
+Deployment to Firebase Hosting uses a pinned `firebase-tools` version (15.34.0) in the GitHub Actions workflow, so bump it deliberately rather than relying on `latest`.
+
 ## Project structure
 
 ```
